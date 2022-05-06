@@ -25,7 +25,7 @@ There are not any special requirements, besides having _WinGet_ installed on you
 - _Self-contained_: That´s the reason why the binary-size may be a bit bigger and why there is no framework requirement or dependency.
 - GitHub´s default _.gitignore_ excludes _Visual Studio 2022_ publish-profiles, so i added a [publish-settings screenshot](img/screenshot-publish-settings.png) to repo.
 - The source is using some typical asynchronous TAP pattern approach, including "_Tasks_" and "_async/await_" concepts.
-- `WinGetDotNet` just exists, because it started as a sidecar project of my `wingetupd` project. :grin:
+- `WinGetDotNet` just exists, because it started as a sidecar project of my  [_wingetupd_](https://github.com/MBODM/wingetupd) project. :grin:
 
 #### Have fun.
 
