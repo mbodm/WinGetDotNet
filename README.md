@@ -22,9 +22,9 @@ There are not any special requirements, besides having _WinGet_ installed on you
 - `WinGetDotNet` is written in C#, is using .NET 6 and is built with Visual Studio 2022.
 - To compile the source by your own, you just need some Visual Studio 2022 (i.e. "Community"). Nothing else.
 - The release-binaries are compiled as _self-contained_ .NET 6 NuGet packages, with "_x64 Windows_" as target.
-- _Self-contained_: That´s the reason why the binary-size may be a bit bigger and why there is no framework dependency.
+- _Self-contained_: That´s the reason why the binary-size may be bigger and why there is no framework dependency.
 - GitHub´s default _.gitignore_ excludes _Visual Studio 2022_ publish-profiles, so i added a [publish-settings screenshot](img/screenshot-publish-settings.png) to repo.
-- The source is using some typical asynchronous TAP pattern approach, including "_Tasks_" and "_async/await_" concepts.
+- The source is using some typical asynchronous TAP pattern approach, including stuff like "_async/await_" etc.
 - `WinGetDotNet` just exists, because it started as a sidecar project of my  [_wingetupd_](https://github.com/MBODM/wingetupd) project. :grin:
 
 #### Have fun.
