@@ -30,7 +30,7 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
     ```
 - Model we get as result, containing data about how WinGet was called, as well as it´s output and it´s exit code:
     ```csharp
-    record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode)
+    public sealed record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode);
     ```
 
 ### Requirements
