@@ -18,7 +18,7 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
 ### The library
 - alsdkfjlaksjdf
 ```csharp
-bool WinGetIsInstalled { get; }
+bool WinGetIsInstalled { get; } = wuzz
 ```
 - asdölfkjalsd
 ```csharp
