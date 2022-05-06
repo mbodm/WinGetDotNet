@@ -16,6 +16,9 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
 - `WinGetDotNet` 
 
 ### The library
+
+I wil give just a short library overview, to get some quick inside, how it´s used.
+
 - Property to verify, if _WinGet_ is installed:
     ```csharp
     bool WinGetIsInstalled { get; }
@@ -32,6 +35,7 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
     ```csharp
     public sealed record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode);
     ```
+For more information, just take a look into the source code.
 
 ### Requirements
 There are not any special requirements, besides having _WinGet_ installed on your machine. `WinGetDotNet` is just a typical .NET assembly, released as NuGet package. Just download the newest release, from the [Releases](https://github.com/MBODM/WinGetDotNet/releases) page, unzip and add the NuGet package to your project. All the releases are compiled for x64 Windows, assuming you are using some 64-bit Windows (and that's quite likely).
