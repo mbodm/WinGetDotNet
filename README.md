@@ -21,11 +21,11 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
 bool WinGetIsInstalled { get; }
 ```
 - asdölfkjalsd
-```
+```csharp
 Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)
 ```
 - alsdkfjlaksjdf
-```
+```csharp
 Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)
 ```
 
