@@ -11,6 +11,14 @@ It´s a simple and tiny .NET 6 assembly named `WinGetDotNet`. The library wraps 
 Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Windows applications and keep your Windows software up2date. Fat kudos :thumbsup: to Microsoft here!  For more information about _WinGet_ itself, take a look at https://docs.microsoft.com/en-us/windows/package-manager/winget or use your Google-Fu techniques.
 
 ### How it works
+- `WinGetDotNet` is using the _System.Diagnostics.Process_ class, to run WinGet.
+- `WinGetDotNet` is using the typical TAP pattern approach and supports task cancellation by using the _CancellationToken_ pattern.
+- `WinGetDotNet` 
+
+### The library
+- `bool WinGetIsInstalled { get; }`
+- `Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)`
+- `Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)`
 
 
 ### Requirements
