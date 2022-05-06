@@ -16,15 +16,15 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
 - `WinGetDotNet` 
 
 ### The library
-- Property to verify, if WinGet is installed:
+- Property to verify, if _WinGet_ is installed:
     ```csharp
     bool WinGetIsInstalled { get; }
     ```
-- Property to verify, if WinGet is installed:
+- Method to run _WinGet_ asynchronous (with optional `CancellationToken`):
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)
     ```
-- Property to verify, if WinGet is installed:
+- Method to run _WinGet_ asynchronous and a given timeout (with optional `CancellationToken`):
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)
     ```
