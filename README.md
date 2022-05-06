@@ -16,12 +16,15 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
 - `WinGetDotNet` 
 
 ### The library
+- alsdkfjlaksjdf
 ```
 bool WinGetIsInstalled { get; }
 ```
+- asdölfkjalsd
 ```
 Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)
 ```
+- alsdkfjlaksjdf
 ```
 Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)
 ```
