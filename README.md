@@ -21,7 +21,7 @@ There are not any special requirements, besides having _WinGet_ installed on you
 ### Notes
 - `WinGetDotNet` is written in C#, is using .NET 6 and is built with Visual Studio 2022.
 - To compile the source by your own, you just need some Visual Studio 2022 edition. Nothing else.
-- I never compiled this with other tools, like Rider or VS Code. I just used Visual Studio 2022 Community.
+- I never compiled this with other tools, like Rider or VS Code. I only used Visual Studio 2022 Community.
 - The release-binaries are compiled as _self-contained_ .NET 6 NuGet packages, with "_x64 Windows_" as target.
 - _Self-contained_: That´s the reason why the binary-size may be bigger and why there is no framework dependency.
 - GitHub´s default _.gitignore_ excludes Visual Studio 2022 publish-profiles, so i added a [screenshot](img/screenshot-publish-settings.png) to repo.
