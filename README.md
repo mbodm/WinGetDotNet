@@ -1,7 +1,7 @@
 # WinGetDotNet
 Some easy-to-use [_WinGet_](https://docs.microsoft.com/en-us/windows/package-manager/winget) wrapper library for .NET
 
-![wingetupd.exe](img/screenshot-tool-usage.png)
+![wingetupd.exe](img/screenshot-source-code.png)
 
 ### What it is
 It´s a simple and tiny .NET 6 assembly named `WinGetDotNet`. The library wraps the popular Windows-App [_WinGet_](https://docs.microsoft.com/en-us/windows/package-manager/winget). _WinGet_ is used to manage software packages on a Windows machine. `WinGetDotNet` makes it easy, to integrate _WinGet_ calls into a .NET program.
