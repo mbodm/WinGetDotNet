@@ -16,7 +16,8 @@ Btw: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Wi
 - `WinGetDotNet` 
 
 ### The library
-- ```csharp
+- alsdkfjlk
+```csharp
 bool WinGetIsInstalled { get; }
 ```
 - ```csharp Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)`
