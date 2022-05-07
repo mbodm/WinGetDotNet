@@ -12,11 +12,10 @@ By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of 
 
 ### How it works
 - `WinGetDotNet` is released as .NET NuGet package. Just download, unzip and add it to your existing project.
-- `WinGetDotNet` is developed by using the [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
+- `WinGetDotNet` is using the _System.Diagnostics.Process_ class to run WinGet.
 - `WinGetDotNet` is using the TAP pattern, including typical _async/await_ and _CancellationToken_ concepts.
 - `WinGetDotNet` is using a typical _CancellationToken_ timeout pattern.
-- `WinGetDotNet` is using the _System.Diagnostics.Process_ class to run WinGet.
-
+- `WinGetDotNet` is developed by using the [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
 
 ### Quick overview
 
