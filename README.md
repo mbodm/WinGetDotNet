@@ -31,7 +31,7 @@ Here are some elements, to give a quick overview on how it looks like, for a fir
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)
     ```
-- Model we get as result, containing data about how WinGet was called, as well as it´s output and it´s exit code:
+- Result model, containing data about how WinGet was called, as well as it´s output and it´s exit code:
     ```csharp
     record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode);
     ```
