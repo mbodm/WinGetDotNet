@@ -15,7 +15,7 @@ By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of 
 - `WinGetDotNet` is using the typical TAP pattern approach and supports task cancellation by using the _CancellationToken_ pattern.
 - `WinGetDotNet` 
 
-### A quick overview
+### Quick overview
 
 Here are some elements, to give a quick overview on how it looks like, for a first impression:
 
