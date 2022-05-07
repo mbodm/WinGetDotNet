@@ -17,7 +17,7 @@ By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of 
 
 ### Quick overview
 
-Here are some elements, to give a quick overview on how it looks like, for a first impression:
+Here are some excerpts, to give a quick overview on how it looks like, for a first impression:
 
 - Property to verify if _WinGet_ is installed:
     ```csharp
