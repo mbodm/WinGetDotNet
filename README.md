@@ -27,7 +27,7 @@ Here are some elements, to give a quick overview on how it looks like, for a fir
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)
     ```
-- Method to run _WinGet_ asynchronous with a given timeout:
+- Method to run _WinGet_ asynchronous, with a given timeout:
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)
     ```
