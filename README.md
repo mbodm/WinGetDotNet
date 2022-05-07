@@ -35,7 +35,7 @@ Here are some excerpts, to give a quick overview on how it looks like, for a fir
     ```csharp
     record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode);
     ```
-For more information, just use the IntelliSense tooltips of Visual Studio, or take a look into the source code. It´s really a rather small and simple library. :)
+For more information, just use the IntelliSense tooltips of Visual Studio, or take a look into the source code. It´s really a rather small and simple library. 😄
 
 ### Requirements
 There are not any special requirements, besides having _WinGet_ installed on your machine. `WinGetDotNet` is just a typical .NET assembly, released as NuGet package. Just download the newest release, from the [Releases](https://github.com/MBODM/WinGetDotNet/releases) page, unzip it and add the NuGet package to your project. All the releases are compiled for x64 Windows, assuming you are using some 64-bit Windows (and that's quite likely).
