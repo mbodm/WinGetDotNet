@@ -17,25 +17,25 @@ By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of 
 
 ### The library
 
-I wil give just a short library overview, to get some quick inside, how it´s used.
+Here are some elements, to give a quick overview on how it looks like, for a first impression:
 
-- Property to verify, if _WinGet_ is installed:
+- Property to verify if _WinGet_ is installed:
     ```csharp
     bool WinGetIsInstalled { get; }
     ```
-- Method to run _WinGet_ asynchronous (including optional `CancellationToken`):
+- Method to run _WinGet_ asynchronous:
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, CancellationToken cancellationToken = default)
     ```
-- Method to run _WinGet_ asynchronous with a given timeout (including optional `CancellationToken`):
+- Method to run _WinGet_ asynchronous with a given timeout:
     ```csharp
     Task<WinGetResult> RunWinGetAsync(string parameters, TimeSpan timeout, CancellationToken cancellationToken = default)
     ```
 - Model we get as result, containing data about how WinGet was called, as well as it´s output and it´s exit code:
     ```csharp
-    public sealed record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode);
+    record WinGetResult(string ProcessCall, string ConsoleOutput, int ExitCode);
     ```
-For more information, just take a look into the source code.
+For more information, just use the IntelliSense tooltips of Visual Studio, or take a look into the source code.
 
 ### Requirements
 There are not any special requirements, besides having _WinGet_ installed on your machine. `WinGetDotNet` is just a typical .NET assembly, released as NuGet package. Just download the newest release, from the [Releases](https://github.com/MBODM/WinGetDotNet/releases) page, unzip and add the NuGet package to your project. All the releases are compiled for x64 Windows, assuming you are using some 64-bit Windows (and that's quite likely).
