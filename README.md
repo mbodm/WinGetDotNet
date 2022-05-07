@@ -12,7 +12,7 @@ By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of 
 
 ### How it works
 - `WinGetDotNet` is released as typical .NET NuGet package. Just download, unzip and add it to your existing project.
-- `WinGetDotNet` is using the _System.Diagnostics.Process_ class to run WinGet.
+- `WinGetDotNet` is using the [System.Diagnostics.Process](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process) class to run WinGet.
 - `WinGetDotNet` is using the typical TAP pattern approach, using _async/await_ and _CancellationToken_.
 - `WinGetDotNet` is developed by using the [SOLID principles](https://en.wikipedia.org/wiki/SOLID)  
 
