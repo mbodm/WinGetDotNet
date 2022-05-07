@@ -51,7 +51,7 @@ There are not any special requirements, besides having _WinGet_ installed on you
 - The release-binaries are compiled as _self-contained_ .NET 6 NuGet packages, with "_x64 Windows_" as target.
 - _Self-contained_: That´s the reason why the binary-size may be bigger and why there is no framework dependency.
 - GitHub´s default _.gitignore_ excludes Visual Studio 2022 publish-profiles, so i added a [screenshot](img/screenshot-publish-settings.png) to repo.
-- `WinGetDotNet` just exists, because it started as a sidecar project of my  [wingetupd](https://github.com/MBODM/wingetupd) project. :grin:
+- `WinGetDotNet` just exists, because it started as a sidecar project of my  [wingetupd](https://github.com/MBODM/wingetupd) tool. :grin:
 
 #### Have fun.
 
