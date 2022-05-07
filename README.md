@@ -17,7 +17,7 @@ By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of 
 - `WinGetDotNet` is using a typical _CancellationToken_ timeout pattern.
 - `WinGetDotNet` offers a method that asynchronously starts a _WinGet_ process as _Task_, to _await_ the process.
 - `WinGetDotNet` returns the _WinGet_ console output and exit code, after the _awaitable_ process has finished.
-- `WinGetDotNet` is developed by using the [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
+- `WinGetDotNet` is developed by using the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) in a typical manner.
 
 ### Quick overview
 
