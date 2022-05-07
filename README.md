@@ -11,12 +11,12 @@ It´s a simple and tiny .NET 6 assembly named `WinGetDotNet`, wrapping the popul
 By the way: _WinGet_ is imo a __fantastic__ piece of software, to manage all of your Windows applications and keep your Windows software up2date. Fat kudos :thumbsup: to Microsoft here!  For more information about _WinGet_ itself, take a look at https://docs.microsoft.com/en-us/windows/package-manager/winget or use your Google-Fu techniques.
 
 ### How it works
-- `WinGetDotNet` is released as .NET _NuGet_ package. Just download, unzip and add it to your existing project.
+- `WinGetDotNet` is released as .NET NuGet package. Just download, unzip and add it to your existing project.
 - `WinGetDotNet` is using the _System.Diagnostics.Process_ class to run _WinGet_.
-- `WinGetDotNet` is using the .NET _TAP_ pattern, including typical _async/await_ and _CancellationToken_ concepts.
+- `WinGetDotNet` is using the .NET TAP pattern, including typical _async/await_ and _CancellationToken_ concepts.
 - `WinGetDotNet` is using a typical _CancellationToken_ timeout pattern.
 - `WinGetDotNet` offers a method that asynchronously starts a _WinGet_ process as _Task_, to _await_ the process.
-- `WinGetDotNet` returns the _WinGet_ console output and exit code, after the _awaitable_ process has finished.
+- `WinGetDotNet` returns the _WinGet_ console output and exit code, after the awaitable process has finished.
 - `WinGetDotNet` is developed by using the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) in a typical manner.
 
 ### Quick overview
